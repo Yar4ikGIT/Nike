@@ -1,15 +1,17 @@
-let lastScrollTop = 0;  
-const header = document.getElementById('header');  
+let lastScrollTop = 0;
+const header = document.querySelector('.header');
+const headerHeight = header.offsetHeight; // Получаем высоту хедера
 
-window.addEventListener('scroll', function() {  
-    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;  
+window.addEventListener('scroll', () => {
+  const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-    if (scrollTop > lastScrollTop) {  
-        // Прокрутка вниз  
-        header.style.top = "-80px"; // Высота заголовка, чтобы скрыть его  
-    } else {  
-        // Прокрутка вверх  
-        header.style.top = "0";  
-    }  
-    lastScrollTop = scrollTop;  
+  if (currentScrollTop > lastScrollTop && currentScrollTop > headerHeight) {
+    // Скроллим вниз и прячем хедер
+    header.classList.add('hide');
+  } else if (currentScrollTop < lastScrollTop) {
+    // Скроллим вверх, показываем хедер
+    header.classList.remove('hide');
+  }
+
+  lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop;
 });
