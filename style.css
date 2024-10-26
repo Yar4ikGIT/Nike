@@ -1,5 +1,7 @@
 body{
   height: 1500px;
+  margin: 0;
+  padding: 0;
 }
 
 .back{
@@ -67,7 +69,7 @@ body {
 .text1 {
   color: black; 
   position: absolute;
-  left: 550px;
+  left: 580px;
   top: 22px;
   cursor: pointer;
   text-decoration: none; 
@@ -101,7 +103,7 @@ body {
 .text2 {
   color: black; 
   position: absolute;
-  left: 650px;
+  left: 680px;
   top: 22px;
   cursor: pointer;
   text-decoration: none; 
@@ -135,7 +137,7 @@ body {
 .text3 {
   color: black; 
   position: absolute;
-  left: 750px;
+  left: 780px;
   top: 22px;
   cursor: pointer;
   text-decoration: none; 
@@ -169,7 +171,7 @@ body {
 .text4 {
   color: black; 
   position: absolute;
-  left: 850px;
+  left: 880px;
   top: 22px;
   cursor: pointer;
   text-decoration: none; 
@@ -204,4 +206,140 @@ body {
 position: absolute;
 left: 50px;
 width: 70px;
+}
+
+.text-block, .link-block {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  opacity: 0; /* Начальное значение прозрачности */
+  transition: opacity 1s ease-in-out; /* Плавный переход */
+  position: absolute; /* Фиксируем позицию, чтобы блоки накладывались друг на друга */
+  left: 50%; /* Устанавливаем центрирование по горизонтали */
+  transform: translateX(-50%); /* Центрируем элементы */
+  top: 70px; /* Позиция по умолчанию */
+  width: auto; /* Авто ширина для блоков */
+}
+
+/* Стили для ссылок */
+
+/* Уникальные классы для сдвига текстов */
+.sponsor-text {
+  left: 50%; /* Центрируем второй текст */
+  transform: translateX(-60%); /* Сдвигаем влево */
+}
+
+.sponsor {
+  left: 49%; /* Центрируем третий текст */
+  transform: translateX(-50%); /* Нормальное центрирование */
+}
+
+.tex1 {
+  position: absolute;
+  color: #000000; /* Начальный цвет текста */
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  transition: color 0s ease; /* Плавный переход цвета */
+  text-decoration: none;
+  left: 1310px;
+  top: 80px;
+}
+
+.tex1:hover {
+  color: #797979; /* Цвет текста при наведении */
+}
+
+.tex2 {
+  position: absolute;
+  color: #000000; /* Начальный цвет текста */
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  transition: color 0s ease; /* Плавный переход цвета */
+  text-decoration: none;
+  left: 1390px;
+  top: 80px;
+}
+
+.tex3 {
+  position: absolute;
+  color: #000000; /* Начальный цвет текста */
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  transition: color 0s ease; /* Плавный переход цвета */
+  text-decoration: none;
+  left: 1408px;
+  top: 80px;
+}
+
+.tex3:hover {
+  color: #797979; /* Цвет текста при наведении */
+}
+
+.tex4{
+  position: absolute;
+  color: #000000; /* Начальный цвет текста */
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  transition: color 0s ease; /* Плавный переход цвета */
+  text-decoration: none;
+  left: 1450px;
+  top: 80px;
+}
+
+.tex5 {
+  position: absolute;
+  color: #000000; /* Начальный цвет текста */
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  transition: color 0s ease; /* Плавный переход цвета */
+  text-decoration: none;
+  left: 1468px;
+  top: 80px;
+}
+
+.tex5:hover {
+  color: #797979; /* Цвет текста при наведении */
+}
+
+.tex6{
+  position: absolute;
+  color: #000000; /* Начальный цвет текста */
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  transition: color 0s ease; /* Плавный переход цвета */
+  text-decoration: none;
+  left: 1520px;
+  top: 80px;
+}
+
+.tex7 {
+  position: absolute;
+  color: #000000; /* Начальный цвет текста */
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  transition: color 0s ease; /* Плавный переход цвета */
+  text-decoration: none;
+  left: 1538px;
+  top: 80px;
+}
+
+.tex7:hover {
+  color: #797979; /* Цвет текста при наведении */
+}
+.jordan{
+position: absolute;
+top: 70px;
+left: 20px;
+}
+.converse{
+  position: absolute;
+  top: 74px;
+left: 70px;
 }
