@@ -1,5 +1,5 @@
 body{
-  height: 1500px;
+  height: 3000px;
   margin: 0;
   padding: 0;
 }
@@ -380,4 +380,50 @@ left: 40px;
 
 .color-change-button:hover {
     background-color: #d4d4d4; /* Цвет при наведении */
+}
+
+.sneakerss{
+  position: absolute;
+  top: 960px;
+  left: 560px;
+}
+
+.tech{
+  position: absolute;
+  top: 960px;
+  left: 70px;
+}
+.winter{
+  position: absolute;
+  top: 960px;
+  left: 1050px;
+}
+.p-sneakerss{
+  color: #000000;
+  font-size: 26px;
+  position: absolute;
+  top: 885px;
+  left: 71px;
+}
+
+.p-snek{
+  color: #000000;
+  font-size: 21px;
+  position: absolute;
+  top: 1530px;
+  left: 561px;
+}
+.p-tech{
+  color: #000000;
+  font-size: 21px;
+  position: absolute;
+  top: 1530px;
+  left: 70px;
+}
+.p-winter{
+  color: #000000;
+  font-size: 21px;
+  position: absolute;
+  top: 1530px;
+  left: 1051px;
 }
