@@ -343,3 +343,41 @@ left: 20px;
   top: 74px;
 left: 70px;
 }
+.h1-back{
+color: #ffffff;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+letter-spacing: 4px;
+font-size: 55px;
+font-weight: bold;
+position: absolute;
+top: 500px;
+left: 40px;
+}
+
+.h2-back{
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  top: 610px;
+  left: 40px;
+  }
+
+  .color-change-button {
+    display: inline-block; /* Делаем элемент блочным для отступов */
+    background-color: #ffffff; /* Начальный цвет */
+    color: #000000; /* Цвет текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    border: none; /* Убираем границу */
+    padding: 10px 20px; /* Отступы */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Указатель на кнопку */
+    border-radius: 15px;
+    position: absolute;
+    top: 680px;
+    left: 40px;
+}
+
+.color-change-button:hover {
+    background-color: #d4d4d4; /* Цвет при наведении */
+}
