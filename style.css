@@ -212,51 +212,51 @@ width: 70px;
   font-size: 20px;
   font-weight: bold;
   margin-top: 20px;
-  opacity: 0; /* Начальное значение прозрачности */
-  transition: opacity 1s ease-in-out; /* Плавный переход */
-  position: absolute; /* Фиксируем позицию, чтобы блоки накладывались друг на друга */
-  left: 50%; /* Устанавливаем центрирование по горизонтали */
-  transform: translateX(-50%); /* Центрируем элементы */
-  top: 70px; /* Позиция по умолчанию */
-  width: auto; /* Авто ширина для блоков */
+  opacity: 0; 
+  transition: opacity 1s ease-in-out; 
+  position: absolute; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  top: 70px; 
+  width: auto; 
 }
 
-/* Стили для ссылок */
 
-/* Уникальные классы для сдвига текстов */
+
+
 .sponsor-text {
-  left: 50%; /* Центрируем второй текст */
-  transform: translateX(-60%); /* Сдвигаем влево */
+  left: 50%; 
+  transform: translateX(-60%); 
 }
 
 .sponsor {
-  left: 49%; /* Центрируем третий текст */
-  transform: translateX(-50%); /* Нормальное центрирование */
+  left: 49%; 
+  transform: translateX(-50%); 
 }
 
 .tex1 {
   position: absolute;
-  color: #000000; /* Начальный цвет текста */
+  color: #000000; 
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
-  transition: color 0s ease; /* Плавный переход цвета */
+  transition: color 0s ease; 
   text-decoration: none;
   left: 1310px;
   top: 80px;
 }
 
 .tex1:hover {
-  color: #797979; /* Цвет текста при наведении */
+  color: #797979; 
 }
 
 .tex2 {
   position: absolute;
-  color: #000000; /* Начальный цвет текста */
+  color: #000000; 
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
-  transition: color 0s ease; /* Плавный переход цвета */
+  transition: color 0s ease; 
   text-decoration: none;
   left: 1390px;
   top: 80px;
@@ -264,27 +264,27 @@ width: 70px;
 
 .tex3 {
   position: absolute;
-  color: #000000; /* Начальный цвет текста */
+  color: #000000; 
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
-  transition: color 0s ease; /* Плавный переход цвета */
+  transition: color 0s ease; 
   text-decoration: none;
   left: 1408px;
   top: 80px;
 }
 
 .tex3:hover {
-  color: #797979; /* Цвет текста при наведении */
+  color: #797979; 
 }
 
 .tex4{
   position: absolute;
-  color: #000000; /* Начальный цвет текста */
+  color: #000000;
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
-  transition: color 0s ease; /* Плавный переход цвета */
+  transition: color 0s ease; 
   text-decoration: none;
   left: 1450px;
   top: 80px;
@@ -292,27 +292,27 @@ width: 70px;
 
 .tex5 {
   position: absolute;
-  color: #000000; /* Начальный цвет текста */
+  color: #000000; 
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
-  transition: color 0s ease; /* Плавный переход цвета */
+  transition: color 0s ease;
   text-decoration: none;
   left: 1468px;
   top: 80px;
 }
 
 .tex5:hover {
-  color: #797979; /* Цвет текста при наведении */
+  color: #797979; 
 }
 
 .tex6{
   position: absolute;
-  color: #000000; /* Начальный цвет текста */
+  color: #000000; 
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
-  transition: color 0s ease; /* Плавный переход цвета */
+  transition: color 0s ease; 
   text-decoration: none;
   left: 1520px;
   top: 80px;
@@ -320,18 +320,18 @@ width: 70px;
 
 .tex7 {
   position: absolute;
-  color: #000000; /* Начальный цвет текста */
+  color: #000000; 
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
-  transition: color 0s ease; /* Плавный переход цвета */
+  transition: color 0s ease; 
   text-decoration: none;
   left: 1538px;
   top: 80px;
 }
 
 .tex7:hover {
-  color: #797979; /* Цвет текста при наведении */
+  color: #797979; 
 }
 .jordan{
 position: absolute;
@@ -364,14 +364,14 @@ left: 40px;
   }
 
   .color-change-button {
-    display: inline-block; /* Делаем элемент блочным для отступов */
-    background-color: #ffffff; /* Начальный цвет */
-    color: #000000; /* Цвет текста */
-    text-decoration: none; /* Убираем подчеркивание */
-    border: none; /* Убираем границу */
-    padding: 10px 20px; /* Отступы */
-    font-size: 16px; /* Размер шрифта */
-    cursor: pointer; /* Указатель на кнопку */
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000; 
+    text-decoration: none; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
     border-radius: 15px;
     position: absolute;
     top: 680px;
@@ -379,7 +379,7 @@ left: 40px;
 }
 
 .color-change-button:hover {
-    background-color: #d4d4d4; /* Цвет при наведении */
+    background-color: #d4d4d4; 
 }
 
 .sneakerss{
@@ -426,4 +426,95 @@ left: 40px;
   position: absolute;
   top: 1530px;
   left: 1051px;
+}
+
+.p-snea{
+  color: #000000;
+  font-size: 25px;
+  position: absolute;
+  top: 1630px;
+  left: 71px;
+}
+
+.snek1{
+  position: absolute;
+  top: 1710px;
+  left: 70px;
+}
+
+.buy {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #000000; 
+  text-decoration: none; 
+  border: none; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  border-radius: 15px;
+  position: absolute;
+  top: 1960px;
+  left: 120px;
+}
+
+.buy:hover {
+  background-color: #d4d4d4; 
+}
+
+.snek2{
+  position: absolute;
+  top: 1710px;
+  left: 560px;
+}
+
+.buy1{
+  display: inline-block;
+  background-color: #ffffff;
+  color: #000000; 
+  text-decoration: none; 
+  border: none; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  border-radius: 15px;
+  position: absolute;
+  top: 1960px;
+  left: 610px;
+}
+
+.buy1:hover {
+  background-color: #d4d4d4; 
+}
+
+.snek3{
+  position: absolute;
+  top: 1710px;
+  left: 1050px;
+}
+
+.buy2 {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #000000; 
+  text-decoration: none; 
+  border: none; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  border-radius: 15px;
+  position: absolute;
+  top: 1960px;
+  left: 1105px;
+}
+
+.buy2:hover {
+  background-color: #d4d4d4; 
+}
+
+.hr1{
+ border-color: #000000;
+  position: absolute;
+  top: 1610px;
+  left: 130px;
+ width: 1300px;
 }
