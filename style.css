@@ -371,6 +371,7 @@ left: 40px;
     border: none; 
     padding: 10px 20px; 
     font-size: 16px; 
+    font-weight: bold;
     cursor: pointer; 
     border-radius: 15px;
     position: absolute;
@@ -410,21 +411,21 @@ left: 40px;
   color: #000000;
   font-size: 21px;
   position: absolute;
-  top: 1530px;
+  top: 1550px;
   left: 561px;
 }
 .p-tech{
   color: #000000;
   font-size: 21px;
   position: absolute;
-  top: 1530px;
+  top: 1550px;
   left: 70px;
 }
 .p-winter{
   color: #000000;
   font-size: 21px;
   position: absolute;
-  top: 1530px;
+  top: 1550px;
   left: 1051px;
 }
 
@@ -450,6 +451,7 @@ left: 40px;
   border: none; 
   padding: 10px 20px; 
   font-size: 16px; 
+  font-weight: bold;
   cursor: pointer; 
   border-radius: 15px;
   position: absolute;
@@ -475,6 +477,7 @@ left: 40px;
   border: none; 
   padding: 10px 20px; 
   font-size: 16px; 
+  font-weight: bold;
   cursor: pointer; 
   border-radius: 15px;
   position: absolute;
@@ -500,6 +503,7 @@ left: 40px;
   border: none; 
   padding: 10px 20px; 
   font-size: 16px; 
+  font-weight: bold;
   cursor: pointer; 
   border-radius: 15px;
   position: absolute;
@@ -514,7 +518,101 @@ left: 40px;
 .hr1{
  border-color: #000000;
   position: absolute;
-  top: 1610px;
+  top: 1640px;
   left: 130px;
  width: 1300px;
+}
+
+.p-snea{
+  color: #000000;
+  font-size: 25px;
+  position: absolute;
+  top: 2120px;
+  left: 71px;
+}
+
+.Running1{
+  position: absolute;
+  top: 2200px;
+  left: 70px;
+}
+
+.footbal1{
+  position: absolute;
+  top: 2200px;
+  left: 560px;
+}
+
+.Basketball1{
+  position: absolute;
+  top: 2200px;
+  left: 1050px;
+}
+
+.hr2{
+  border-color: #000000;
+   position: absolute;
+   top: 2090px;
+   left: 130px;
+  width: 1300px;
+ }
+
+.Running{
+  display: inline-block;
+  background-color: #ffffff;
+  color: #000000; 
+  text-decoration: none; 
+  border: none; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  font-weight: bold;
+  cursor: pointer; 
+  border-radius: 15px;
+  position: absolute;
+  top: 2440px;
+  left: 120px;
+}
+
+.Running:hover {
+  background-color: #d4d4d4; 
+}
+
+.footbal{
+  display: inline-block;
+  background-color: #ffffff;
+  color: #000000; 
+  text-decoration: none; 
+  border: none; 
+  font-weight: bold;
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  border-radius: 15px;
+  position: absolute;
+  top: 2440px;
+  left: 620px;
+}
+
+.footbal:hover {
+  background-color: #d4d4d4; 
+}
+
+.Basketball{
+  display: inline-block;
+  background-color: #ffffff;
+  color: #000000; 
+  text-decoration: none; 
+  border: none; 
+  font-weight: bold;
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  border-radius: 15px;
+  position: absolute;
+  top: 2440px;
+  left: 1100px;
+}
+
+.Basketball:hover {
+  background-color: #d4d4d4; 
 }
