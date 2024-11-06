@@ -1,10 +1,10 @@
-body{
-  height: 3000px;
+body {
+  height: 5000px;
   margin: 0;
   padding: 0;
 }
 
-.back{
+.back {
   width: 1590px;
   height: 700px;
   position: absolute;
@@ -13,13 +13,14 @@ body{
 
 }
 
-body {  
-  font-family: Arial, sans-serif;  
-  margin: 0;  
-  padding: 0;  
-}  
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -47,7 +48,7 @@ body {
 }
 
 .header.hide {
-  transform: translateY(-100%); 
+  transform: translateY(-100%);
 }
 
 
@@ -67,13 +68,13 @@ body {
 }
 
 .text1 {
-  color: black; 
+  color: black;
   position: absolute;
   left: 580px;
   top: 22px;
   cursor: pointer;
-  text-decoration: none; 
-  font-weight: bold; 
+  text-decoration: none;
+  font-weight: bold;
   font-style: italic;
 }
 
@@ -84,9 +85,9 @@ body {
   right: 0;
   bottom: -3px;
   width: 0;
-  height: 2px; 
-  background-color: black; 
-  transition: width 0.5s; 
+  height: 2px;
+  background-color: black;
+  transition: width 0.5s;
 }
 
 .text1:hover:after {
@@ -95,19 +96,19 @@ body {
   position: absolute;
   left: 0;
   bottom: -3px;
-  height: 2px; 
-  background-color: black; 
-  transition: width 0.5s; 
+  height: 2px;
+  background-color: black;
+  transition: width 0.5s;
 }
 
 .text2 {
-  color: black; 
+  color: black;
   position: absolute;
   left: 680px;
   top: 22px;
   cursor: pointer;
-  text-decoration: none; 
-  font-weight: bold; 
+  text-decoration: none;
+  font-weight: bold;
   font-style: italic;
 }
 
@@ -118,30 +119,30 @@ body {
   right: 0;
   bottom: -3px;
   width: 0;
-  height: 2px; 
+  height: 2px;
   background-color: black;
-  transition: width 0.5s; 
+  transition: width 0.5s;
 }
 
 .text2:hover:after {
-  width: 100%; 
+  width: 100%;
   display: block;
   position: absolute;
   left: 0;
   bottom: -3px;
-  height: 2px; 
-  background-color: black; 
-  transition: width 0.5s; 
+  height: 2px;
+  background-color: black;
+  transition: width 0.5s;
 }
 
 .text3 {
-  color: black; 
+  color: black;
   position: absolute;
   left: 780px;
   top: 22px;
   cursor: pointer;
-  text-decoration: none; 
-  font-weight: bold; 
+  text-decoration: none;
+  font-weight: bold;
   font-style: italic;
 }
 
@@ -152,30 +153,30 @@ body {
   right: 0;
   bottom: -3px;
   width: 0;
-  height: 2px; 
-  background-color: black; 
-  transition: width 0.5s; 
+  height: 2px;
+  background-color: black;
+  transition: width 0.5s;
 }
 
 .text3:hover:after {
-  width: 100%; 
+  width: 100%;
   display: block;
   position: absolute;
   left: 0;
   bottom: -3px;
-  height: 2px; 
-  background-color: black; 
-  transition: width 0.5s; 
+  height: 2px;
+  background-color: black;
+  transition: width 0.5s;
 }
 
 .text4 {
-  color: black; 
+  color: black;
   position: absolute;
   left: 880px;
   top: 22px;
   cursor: pointer;
-  text-decoration: none; 
-  font-weight: bold; 
+  text-decoration: none;
+  font-weight: bold;
   font-style: italic;
 }
 
@@ -186,77 +187,78 @@ body {
   right: 0;
   bottom: -3px;
   width: 0;
-  height: 2px; 
-  background-color: black; 
-  transition: width 0.5s; 
+  height: 2px;
+  background-color: black;
+  transition: width 0.5s;
 }
 
 .text4:hover:after {
-  width: 100%; 
+  width: 100%;
   display: block;
   position: absolute;
   left: 0;
   bottom: -3px;
-  height: 2px; 
-  background-color: black; 
-  transition: width 0.5s; 
+  height: 2px;
+  background-color: black;
+  transition: width 0.5s;
 }
 
-.logo-Nike{
-position: absolute;
-left: 50px;
-width: 70px;
+.logo-Nike {
+  position: absolute;
+  left: 50px;
+  width: 70px;
 }
 
-.text-block, .link-block {
+.text-block,
+.link-block {
   font-size: 20px;
   font-weight: bold;
   margin-top: 20px;
-  opacity: 0; 
-  transition: opacity 1s ease-in-out; 
-  position: absolute; 
-  left: 50%; 
-  transform: translateX(-50%); 
-  top: 70px; 
-  width: auto; 
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 70px;
+  width: auto;
 }
 
 
 
 
 .sponsor-text {
-  left: 50%; 
-  transform: translateX(-60%); 
+  left: 50%;
+  transform: translateX(-60%);
 }
 
 .sponsor {
-  left: 49%; 
-  transform: translateX(-50%); 
+  left: 49%;
+  transform: translateX(-50%);
 }
 
 .tex1 {
   position: absolute;
-  color: #000000; 
+  color: #000000;
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
-  transition: color 0s ease; 
+  transition: color 0s ease;
   text-decoration: none;
   left: 1310px;
   top: 80px;
 }
 
 .tex1:hover {
-  color: #797979; 
+  color: #797979;
 }
 
 .tex2 {
   position: absolute;
-  color: #000000; 
+  color: #000000;
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
-  transition: color 0s ease; 
+  transition: color 0s ease;
   text-decoration: none;
   left: 1390px;
   top: 80px;
@@ -264,27 +266,27 @@ width: 70px;
 
 .tex3 {
   position: absolute;
-  color: #000000; 
+  color: #000000;
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
-  transition: color 0s ease; 
+  transition: color 0s ease;
   text-decoration: none;
   left: 1408px;
   top: 80px;
 }
 
 .tex3:hover {
-  color: #797979; 
+  color: #797979;
 }
 
-.tex4{
+.tex4 {
   position: absolute;
   color: #000000;
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
-  transition: color 0s ease; 
+  transition: color 0s ease;
   text-decoration: none;
   left: 1450px;
   top: 80px;
@@ -292,7 +294,7 @@ width: 70px;
 
 .tex5 {
   position: absolute;
-  color: #000000; 
+  color: #000000;
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
@@ -303,16 +305,16 @@ width: 70px;
 }
 
 .tex5:hover {
-  color: #797979; 
+  color: #797979;
 }
 
-.tex6{
+.tex6 {
   position: absolute;
-  color: #000000; 
+  color: #000000;
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
-  transition: color 0s ease; 
+  transition: color 0s ease;
   text-decoration: none;
   left: 1520px;
   top: 80px;
@@ -320,86 +322,91 @@ width: 70px;
 
 .tex7 {
   position: absolute;
-  color: #000000; 
+  color: #000000;
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
-  transition: color 0s ease; 
+  transition: color 0s ease;
   text-decoration: none;
   left: 1538px;
   top: 80px;
 }
 
 .tex7:hover {
-  color: #797979; 
-}
-.jordan{
-position: absolute;
-top: 70px;
-left: 20px;
-}
-.converse{
-  position: absolute;
-  top: 74px;
-left: 70px;
-}
-.h1-back{
-color: #ffffff;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-letter-spacing: 4px;
-font-size: 55px;
-font-weight: bold;
-position: absolute;
-top: 500px;
-left: 40px;
+  color: #797979;
 }
 
-.h2-back{
+.jordan {
+  position: absolute;
+  top: 70px;
+  left: 20px;
+}
+
+.converse {
+  position: absolute;
+  top: 74px;
+  left: 70px;
+}
+
+.h1-back {
+  color: #ffffff;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 4px;
+  font-size: 55px;
+  font-weight: bold;
+  position: absolute;
+  top: 500px;
+  left: 40px;
+}
+
+.h2-back {
   color: #ffffff;
   font-size: 18px;
   font-weight: bold;
   position: absolute;
   top: 610px;
   left: 40px;
-  }
+}
 
-  .color-change-button {
-    display: inline-block;
-    background-color: #ffffff;
-    color: #000000; 
-    text-decoration: none; 
-    border: none; 
-    padding: 10px 20px; 
-    font-size: 16px; 
-    font-weight: bold;
-    cursor: pointer; 
-    border-radius: 15px;
-    position: absolute;
-    top: 680px;
-    left: 40px;
+.color-change-button {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+  position: absolute;
+  top: 680px;
+  left: 40px;
 }
 
 .color-change-button:hover {
-    background-color: #d4d4d4; 
+  background-color: #d4d4d4;
 }
 
-.sneakerss{
+.sneakerss {
   position: absolute;
   top: 960px;
   left: 560px;
 }
 
-.tech{
+.tech {
   position: absolute;
   top: 960px;
   left: 70px;
 }
-.winter{
+
+.winter {
   position: absolute;
   top: 960px;
   left: 1050px;
 }
-.p-sneakerss{
+
+.p-sneakerss {
   color: #000000;
   font-size: 26px;
   position: absolute;
@@ -407,21 +414,23 @@ left: 40px;
   left: 71px;
 }
 
-.p-snek{
+.p-snek {
   color: #000000;
   font-size: 21px;
   position: absolute;
   top: 1550px;
   left: 561px;
 }
-.p-tech{
+
+.p-tech {
   color: #000000;
   font-size: 21px;
   position: absolute;
   top: 1550px;
   left: 70px;
 }
-.p-winter{
+
+.p-winter {
   color: #000000;
   font-size: 21px;
   position: absolute;
@@ -429,7 +438,7 @@ left: 40px;
   left: 1051px;
 }
 
-.p-snea{
+.p-snea {
   color: #000000;
   font-size: 25px;
   position: absolute;
@@ -437,7 +446,7 @@ left: 40px;
   left: 71px;
 }
 
-.snek1{
+.snek1 {
   position: absolute;
   top: 1710px;
   left: 70px;
@@ -446,13 +455,13 @@ left: 40px;
 .buy {
   display: inline-block;
   background-color: #ffffff;
-  color: #000000; 
-  text-decoration: none; 
-  border: none; 
-  padding: 10px 20px; 
-  font-size: 16px; 
+  color: #000000;
+  text-decoration: none;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
   font-weight: bold;
-  cursor: pointer; 
+  cursor: pointer;
   border-radius: 15px;
   position: absolute;
   top: 1960px;
@@ -460,25 +469,25 @@ left: 40px;
 }
 
 .buy:hover {
-  background-color: #d4d4d4; 
+  background-color: #d4d4d4;
 }
 
-.snek2{
+.snek2 {
   position: absolute;
   top: 1710px;
   left: 560px;
 }
 
-.buy1{
+.buy1 {
   display: inline-block;
   background-color: #ffffff;
-  color: #000000; 
-  text-decoration: none; 
-  border: none; 
-  padding: 10px 20px; 
-  font-size: 16px; 
+  color: #000000;
+  text-decoration: none;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
   font-weight: bold;
-  cursor: pointer; 
+  cursor: pointer;
   border-radius: 15px;
   position: absolute;
   top: 1960px;
@@ -486,10 +495,10 @@ left: 40px;
 }
 
 .buy1:hover {
-  background-color: #d4d4d4; 
+  background-color: #d4d4d4;
 }
 
-.snek3{
+.snek3 {
   position: absolute;
   top: 1710px;
   left: 1050px;
@@ -498,13 +507,13 @@ left: 40px;
 .buy2 {
   display: inline-block;
   background-color: #ffffff;
-  color: #000000; 
-  text-decoration: none; 
-  border: none; 
-  padding: 10px 20px; 
-  font-size: 16px; 
+  color: #000000;
+  text-decoration: none;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
   font-weight: bold;
-  cursor: pointer; 
+  cursor: pointer;
   border-radius: 15px;
   position: absolute;
   top: 1960px;
@@ -512,18 +521,18 @@ left: 40px;
 }
 
 .buy2:hover {
-  background-color: #d4d4d4; 
+  background-color: #d4d4d4;
 }
 
-.hr1{
- border-color: #000000;
+.hr1 {
+  border-color: #000000;
   position: absolute;
-  top: 1640px;
+  top: 1630px;
   left: 130px;
- width: 1300px;
+  width: 1300px;
 }
 
-.p-snea{
+.p-snea {
   color: #000000;
   font-size: 25px;
   position: absolute;
@@ -531,42 +540,42 @@ left: 40px;
   left: 71px;
 }
 
-.Running1{
+.Running1 {
   position: absolute;
   top: 2200px;
   left: 70px;
 }
 
-.footbal1{
+.footbal1 {
   position: absolute;
   top: 2200px;
   left: 560px;
 }
 
-.Basketball1{
+.Basketball1 {
   position: absolute;
   top: 2200px;
   left: 1050px;
 }
 
-.hr2{
+.hr2 {
   border-color: #000000;
-   position: absolute;
-   top: 2090px;
-   left: 130px;
+  position: absolute;
+  top: 2090px;
+  left: 130px;
   width: 1300px;
- }
+}
 
-.Running{
+.Running {
   display: inline-block;
   background-color: #ffffff;
-  color: #000000; 
-  text-decoration: none; 
-  border: none; 
-  padding: 10px 20px; 
-  font-size: 16px; 
+  color: #000000;
+  text-decoration: none;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
   font-weight: bold;
-  cursor: pointer; 
+  cursor: pointer;
   border-radius: 15px;
   position: absolute;
   top: 2440px;
@@ -574,19 +583,19 @@ left: 40px;
 }
 
 .Running:hover {
-  background-color: #d4d4d4; 
+  background-color: #d4d4d4;
 }
 
-.footbal{
+.footbal {
   display: inline-block;
   background-color: #ffffff;
-  color: #000000; 
-  text-decoration: none; 
-  border: none; 
+  color: #000000;
+  text-decoration: none;
+  border: none;
   font-weight: bold;
-  padding: 10px 20px; 
-  font-size: 16px; 
-  cursor: pointer; 
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
   border-radius: 15px;
   position: absolute;
   top: 2440px;
@@ -594,19 +603,19 @@ left: 40px;
 }
 
 .footbal:hover {
-  background-color: #d4d4d4; 
+  background-color: #d4d4d4;
 }
 
-.Basketball{
+.Basketball {
   display: inline-block;
   background-color: #ffffff;
-  color: #000000; 
-  text-decoration: none; 
-  border: none; 
+  color: #000000;
+  text-decoration: none;
+  border: none;
   font-weight: bold;
-  padding: 10px 20px; 
-  font-size: 16px; 
-  cursor: pointer; 
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
   border-radius: 15px;
   position: absolute;
   top: 2440px;
@@ -614,5 +623,113 @@ left: 40px;
 }
 
 .Basketball:hover {
-  background-color: #d4d4d4; 
+  background-color: #d4d4d4;
 }
+
+.p-sports{
+font-size: 25px;
+color: #000000;
+position: absolute;
+top: 1640px;
+left: 70px;
+}
+
+.p-new{
+  font-size: 25px;
+  color: #000000;
+  position: absolute;
+  top: 2600px;
+  left: 70px;
+  }
+
+.Air-max{
+  position: absolute;
+  top: 2700px;
+  left: 70px;
+}
+
+.Nike-solo{
+  position: absolute;
+  top: 2700px;
+  left: 1050px;
+}
+
+.Air-jordan{
+  position: absolute;
+  top: 2700px;
+  left: 560px;
+}
+
+.air1{
+  font-size: 17px;
+  color: #000000;
+  font-weight: bold;
+  position: absolute;
+  top: 3190px;
+  left: 70px;
+  }
+
+  .air2{
+    font-size: 15px;
+    color: #777777;
+    font-weight: bold;
+    position: absolute;
+    top: 3220px;
+    left: 70px;
+    }
+    .air3{
+      font-size: 17px;
+      color: #000000;
+      font-weight: bold;
+      position: absolute;
+      top: 3250px;
+      left: 70px;
+      }
+      .hoodie1{
+        font-size: 17px;
+        color: #000000;
+        font-weight: bold;
+        position: absolute;
+        top: 3190px;
+        left: 560px;
+        }
+        .hoodie2{
+          font-size: 15px;
+          color: #777777;
+          font-weight: bold;
+          position: absolute;
+          top: 3220px;
+          left: 560px;
+          }
+          .hoodie3{
+            font-size: 17px;
+            color: #000000;
+            font-weight: bold;
+            position: absolute;
+            top: 3250px;
+            left: 560px;
+            }
+            .jordans1{
+              font-size: 17px;
+              color: #000000;
+              font-weight: bold;
+              position: absolute;
+              top: 3190px;
+              left: 1050px;
+              }
+              .jordans2{
+                font-size: 15px;
+                color: #777777;
+                font-weight: bold;
+                position: absolute;
+                top: 3220px;
+                left: 1050px;
+                }
+                .jordans3{
+                  font-size: 17px;
+                  color: #000000;
+                  font-weight: bold;
+                  position: absolute;
+                  top: 3250px;
+                  left: 1050px;
+                  }
