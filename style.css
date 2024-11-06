@@ -626,110 +626,203 @@ body {
   background-color: #d4d4d4;
 }
 
-.p-sports{
-font-size: 25px;
-color: #000000;
-position: absolute;
-top: 1640px;
-left: 70px;
+.p-sports {
+  font-size: 25px;
+  color: #000000;
+  position: absolute;
+  top: 1640px;
+  left: 70px;
 }
 
-.p-new{
+.p-new {
   font-size: 25px;
   color: #000000;
   position: absolute;
   top: 2600px;
   left: 70px;
-  }
+}
 
-.Air-max{
+.Air-max {
   position: absolute;
   top: 2700px;
   left: 70px;
 }
 
-.Nike-solo{
+.Nike-solo {
   position: absolute;
   top: 2700px;
   left: 1050px;
 }
 
-.Air-jordan{
+.Air-jordan {
   position: absolute;
   top: 2700px;
   left: 560px;
 }
 
-.air1{
+.air1 {
   font-size: 17px;
   color: #000000;
   font-weight: bold;
   position: absolute;
   top: 3190px;
   left: 70px;
-  }
+}
 
-  .air2{
-    font-size: 15px;
-    color: #777777;
-    font-weight: bold;
-    position: absolute;
-    top: 3220px;
-    left: 70px;
-    }
-    .air3{
-      font-size: 17px;
-      color: #000000;
-      font-weight: bold;
-      position: absolute;
-      top: 3250px;
-      left: 70px;
-      }
-      .hoodie1{
-        font-size: 17px;
-        color: #000000;
-        font-weight: bold;
-        position: absolute;
-        top: 3190px;
-        left: 560px;
-        }
-        .hoodie2{
-          font-size: 15px;
-          color: #777777;
-          font-weight: bold;
-          position: absolute;
-          top: 3220px;
-          left: 560px;
-          }
-          .hoodie3{
-            font-size: 17px;
-            color: #000000;
-            font-weight: bold;
-            position: absolute;
-            top: 3250px;
-            left: 560px;
-            }
-            .jordans1{
-              font-size: 17px;
-              color: #000000;
-              font-weight: bold;
-              position: absolute;
-              top: 3190px;
-              left: 1050px;
-              }
-              .jordans2{
-                font-size: 15px;
-                color: #777777;
-                font-weight: bold;
-                position: absolute;
-                top: 3220px;
-                left: 1050px;
-                }
-                .jordans3{
-                  font-size: 17px;
-                  color: #000000;
-                  font-weight: bold;
-                  position: absolute;
-                  top: 3250px;
-                  left: 1050px;
-                  }
+.air2 {
+  font-size: 15px;
+  color: #777777;
+  font-weight: bold;
+  position: absolute;
+  top: 3220px;
+  left: 70px;
+}
+
+.air3 {
+  font-size: 17px;
+  color: #000000;
+  font-weight: bold;
+  position: absolute;
+  top: 3250px;
+  left: 70px;
+}
+
+.hoodie1 {
+  font-size: 17px;
+  color: #000000;
+  font-weight: bold;
+  position: absolute;
+  top: 3190px;
+  left: 560px;
+}
+
+.hoodie2 {
+  font-size: 15px;
+  color: #777777;
+  font-weight: bold;
+  position: absolute;
+  top: 3220px;
+  left: 560px;
+}
+
+.hoodie3 {
+  font-size: 17px;
+  color: #000000;
+  font-weight: bold;
+  position: absolute;
+  top: 3250px;
+  left: 560px;
+}
+
+.jordans1 {
+  font-size: 17px;
+  color: #000000;
+  font-weight: bold;
+  position: absolute;
+  top: 3190px;
+  left: 1050px;
+}
+
+.jordans2 {
+  font-size: 15px;
+  color: #777777;
+  font-weight: bold;
+  position: absolute;
+  top: 3220px;
+  left: 1050px;
+}
+
+.jordans3 {
+  font-size: 17px;
+  color: #000000;
+  font-weight: bold;
+  position: absolute;
+  top: 3250px;
+  left: 1050px;
+}
+
+.more {
+  font-size: 25px;
+  color: #000000;
+  position: absolute;
+  top: 3330px;
+  left: 70px;
+}
+
+.more1 {
+  position: absolute;
+  top: 3400px;
+  left: 70px;
+}
+
+.more2 {
+  position: absolute;
+  top: 3400px;
+  left: 560px;
+}
+
+.more3 {
+  position: absolute;
+  top: 3400px;
+  left: 1050px;
+}
+
+.more4 {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 15px;
+  position: absolute;
+  top: 3900px;
+  left: 120px;
+}
+
+.more4:hover {
+  background-color: #d4d4d4;
+}
+
+.more5 {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 15px;
+  position: absolute;
+  top: 3900px;
+  left: 600px;
+}
+
+.more5:hover {
+  background-color: #d4d4d4;
+}
+
+.more6 {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 15px;
+  position: absolute;
+  top: 3900px;
+  left: 1100px;
+}
+
+.more6:hover {
+  background-color: #d4d4d4;
+}
