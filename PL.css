@@ -1,0 +1,1312 @@
+body {
+    height: 5330px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .back {
+    width: 1590px;
+    height: 700px;
+    position: absolute;
+    top: 150px;
+    right: 0px;
+  
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    z-index: 1000;
+  }
+  
+  .header.hide {
+    transform: translateY(-100%);
+  }
+  
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .title {
+    font-size: 18px;
+  }
+  
+  .content {
+    margin-top: 80px;
+    padding: 20px;
+  }
+  
+  .text1 {
+    color: black;
+    position: absolute;
+    left: 580px;
+    top: 22px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .text1:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+  }
+  
+  .text1:hover:after {
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+  }
+  
+  .text2 {
+    color: black;
+    position: absolute;
+    left: 680px;
+    top: 22px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .text2:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+  }
+  
+  .text2:hover:after {
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+  }
+  
+  .text3 {
+    color: black;
+    position: absolute;
+    left: 780px;
+    top: 22px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .text3:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+  }
+  
+  .text3:hover:after {
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+  }
+  
+  .text4 {
+    color: black;
+    position: absolute;
+    left: 880px;
+    top: 22px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .text4:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+  }
+  
+  .text4:hover:after {
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+  }
+  
+  .logo-Nike {
+    position: absolute;
+    left: 50px;
+    width: 70px;
+  }
+  
+  .text-block,
+  .link-block {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70px;
+    width: auto;
+  }
+  
+  
+  
+  
+  .sponsor-text {
+    left: 50%;
+    transform: translateX(-60%);
+  }
+  
+  .sponsor {
+    left: 49%;
+    transform: translateX(-50%);
+  }
+  
+  .tex1 {
+    position: absolute;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    transition: color 0s ease;
+    text-decoration: none;
+    left: 1310px;
+    top: 80px;
+  }
+  
+  .tex1:hover {
+    color: #797979;
+  }
+  
+  .tex2 {
+    position: absolute;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    transition: color 0s ease;
+    text-decoration: none;
+    left: 1390px;
+    top: 80px;
+  }
+  
+  .tex3 {
+    position: absolute;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    transition: color 0s ease;
+    text-decoration: none;
+    left: 1408px;
+    top: 80px;
+  }
+  
+  .tex3:hover {
+    color: #797979;
+  }
+  
+  .tex4 {
+    position: absolute;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    transition: color 0s ease;
+    text-decoration: none;
+    left: 1450px;
+    top: 80px;
+  }
+  
+  .tex5 {
+    position: absolute;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    transition: color 0s ease;
+    text-decoration: none;
+    left: 1468px;
+    top: 80px;
+  }
+  
+  .tex5:hover {
+    color: #797979;
+  }
+  
+  .tex6 {
+    position: absolute;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    transition: color 0s ease;
+    text-decoration: none;
+    left: 1520px;
+    top: 80px;
+  }
+  
+  .tex7 {
+    position: absolute;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    transition: color 0s ease;
+    text-decoration: none;
+    left: 1538px;
+    top: 80px;
+  }
+  
+  .tex7:hover {
+    color: #797979;
+  }
+  
+  .jordan {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+  }
+  
+  .converse {
+    position: absolute;
+    top: 74px;
+    left: 70px;
+  }
+  
+  .h1-back {
+    color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 4px;
+    font-size: 55px;
+    font-weight: bold;
+    position: absolute;
+    top: 500px;
+    left: 40px;
+  }
+  
+  .h2-back {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 610px;
+    left: 40px;
+  }
+  
+  .color-change-button {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+    position: absolute;
+    top: 680px;
+    left: 40px;
+  }
+  
+  .color-change-button:hover {
+    background-color: #d4d4d4;
+  }
+  
+  .sneakerss {
+    position: absolute;
+    top: 960px;
+    left: 560px;
+  }
+  
+  .tech {
+    position: absolute;
+    top: 960px;
+    left: 70px;
+  }
+  
+  .winter {
+    position: absolute;
+    top: 960px;
+    left: 1050px;
+  }
+  
+  .p-sneakerss {
+    color: #000000;
+    font-size: 26px;
+    position: absolute;
+    top: 885px;
+    left: 71px;
+  }
+  
+  .p-snek {
+    color: #000000;
+    font-size: 21px;
+    position: absolute;
+    top: 1550px;
+    left: 561px;
+  }
+  
+  .p-tech {
+    color: #000000;
+    font-size: 21px;
+    position: absolute;
+    top: 1550px;
+    left: 70px;
+  }
+  
+  .p-winter {
+    color: #000000;
+    font-size: 21px;
+    position: absolute;
+    top: 1550px;
+    left: 1051px;
+  }
+  
+  .p-snea {
+    color: #000000;
+    font-size: 25px;
+    position: absolute;
+    top: 1630px;
+    left: 71px;
+  }
+  
+  .snek1 {
+    position: absolute;
+    top: 1710px;
+    left: 70px;
+  }
+  
+  .buy {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+    position: absolute;
+    top: 1960px;
+    left: 120px;
+  }
+  
+  .buy:hover {
+    background-color: #d4d4d4;
+  }
+  
+  .snek2 {
+    position: absolute;
+    top: 1710px;
+    left: 560px;
+  }
+  
+  .buy1 {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+    position: absolute;
+    top: 1960px;
+    left: 610px;
+  }
+  
+  .buy1:hover {
+    background-color: #d4d4d4;
+  }
+  
+  .snek3 {
+    position: absolute;
+    top: 1710px;
+    left: 1050px;
+  }
+  
+  .buy2 {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+    position: absolute;
+    top: 1960px;
+    left: 1105px;
+  }
+  
+  .buy2:hover {
+    background-color: #d4d4d4;
+  }
+  
+  .hr1 {
+    border-color: #000000;
+    position: absolute;
+    top: 1630px;
+    left: 130px;
+    width: 1300px;
+  }
+  
+  .p-snea {
+    color: #000000;
+    font-size: 25px;
+    position: absolute;
+    top: 2120px;
+    left: 71px;
+  }
+  
+  .Running1 {
+    position: absolute;
+    top: 2200px;
+    left: 70px;
+  }
+  
+  .footbal1 {
+    position: absolute;
+    top: 2200px;
+    left: 560px;
+  }
+  
+  .Basketball1 {
+    position: absolute;
+    top: 2200px;
+    left: 1050px;
+  }
+  
+  .hr2 {
+    border-color: #000000;
+    position: absolute;
+    top: 2090px;
+    left: 130px;
+    width: 1300px;
+  }
+  
+  .Running {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+    position: absolute;
+    top: 2440px;
+    left: 120px;
+  }
+  
+  .Running:hover {
+    background-color: #d4d4d4;
+  }
+  
+  .footbal {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+    position: absolute;
+    top: 2440px;
+    left: 620px;
+  }
+  
+  .footbal:hover {
+    background-color: #d4d4d4;
+  }
+  
+  .Basketball {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+    position: absolute;
+    top: 2440px;
+    left: 1100px;
+  }
+  
+  .Basketball:hover {
+    background-color: #d4d4d4;
+  }
+  
+  .p-sports {
+    font-size: 25px;
+    color: #000000;
+    position: absolute;
+    top: 1640px;
+    left: 70px;
+  }
+  
+  .p-new {
+    font-size: 25px;
+    color: #000000;
+    position: absolute;
+    top: 2600px;
+    left: 70px;
+  }
+  
+  .Air-max {
+    position: absolute;
+    top: 2700px;
+    left: 70px;
+  }
+  
+  .Nike-solo {
+    position: absolute;
+    top: 2700px;
+    left: 1050px;
+  }
+  
+  .Air-jordan {
+    position: absolute;
+    top: 2700px;
+    left: 560px;
+  }
+  
+  .air1 {
+    font-size: 17px;
+    color: #000000;
+    font-weight: bold;
+    position: absolute;
+    top: 3190px;
+    left: 70px;
+  }
+  
+  .air2 {
+    font-size: 15px;
+    color: #777777;
+    font-weight: bold;
+    position: absolute;
+    top: 3220px;
+    left: 70px;
+  }
+  
+  .air3 {
+    font-size: 17px;
+    color: #000000;
+    font-weight: bold;
+    position: absolute;
+    top: 3250px;
+    left: 70px;
+  }
+  
+  .hoodie1 {
+    font-size: 17px;
+    color: #000000;
+    font-weight: bold;
+    position: absolute;
+    top: 3190px;
+    left: 560px;
+  }
+  
+  .hoodie2 {
+    font-size: 15px;
+    color: #777777;
+    font-weight: bold;
+    position: absolute;
+    top: 3220px;
+    left: 560px;
+  }
+  
+  .hoodie3 {
+    font-size: 17px;
+    color: #000000;
+    font-weight: bold;
+    position: absolute;
+    top: 3250px;
+    left: 560px;
+  }
+  
+  .jordans1 {
+    font-size: 17px;
+    color: #000000;
+    font-weight: bold;
+    position: absolute;
+    top: 3190px;
+    left: 1050px;
+  }
+  
+  .jordans2 {
+    font-size: 15px;
+    color: #777777;
+    font-weight: bold;
+    position: absolute;
+    top: 3220px;
+    left: 1050px;
+  }
+  
+  .jordans3 {
+    font-size: 17px;
+    color: #000000;
+    font-weight: bold;
+    position: absolute;
+    top: 3250px;
+    left: 1050px;
+  }
+  
+  .more {
+    font-size: 25px;
+    color: #000000;
+    position: absolute;
+    top: 3330px;
+    left: 70px;
+  }
+  
+  .more1 {
+    position: absolute;
+    top: 3400px;
+    left: 70px;
+  }
+  
+  .more2 {
+    position: absolute;
+    top: 3400px;
+    left: 560px;
+  }
+  
+  .more3 {
+    position: absolute;
+    top: 3400px;
+    left: 1050px;
+  }
+  
+  .more4 {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+    position: absolute;
+    top: 3900px;
+    left: 120px;
+  }
+  
+  .more4:hover {
+    background-color: #d4d4d4;
+  }
+  
+  .more5 {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+    position: absolute;
+    top: 3900px;
+    left: 600px;
+  }
+  
+  .more5:hover {
+    background-color: #d4d4d4;
+  }
+  
+  .more6 {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+    position: absolute;
+    top: 3900px;
+    left: 1100px;
+  }
+  
+  .more6:hover {
+    background-color: #d4d4d4;
+  }
+  
+  .membership1 {
+    position: absolute;
+    top: 4150px;
+    left: 70px;
+  }
+  
+  .membership2 {
+    position: absolute;
+    top: 4150px;
+    left: 560px;
+  }
+  
+  .membership3 {
+    position: absolute;
+    top: 4150px;
+    left: 1050px;
+  }
+  
+  .member{
+    font-size: 25px;
+    color: #ff5100;
+    position: absolute;
+    top: 4075px;
+    left: 70px;
+  }
+  
+  .member1{
+    font-size: 17px;
+    color: #ffffff;
+    position: absolute;
+    font-weight: bold;
+    top: 4450px;
+    left: 120px;
+  }
+  
+  .member2{
+    font-size: 24px;
+    color: #ffffff;
+    position: absolute;
+    font-weight: bold;
+    top: 4480px;
+    left: 120px;
+  }
+  
+  .member3 {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+    position: absolute;
+    top: 4555px;
+    left: 120px;
+  }
+  
+  .member3:hover {
+    background-color: #d4d4d4;
+  }
+  
+  .member4{
+    font-size: 17px;
+    color: #ffffff;
+    position: absolute;
+    font-weight: bold;
+    top: 4450px;
+    left: 605px;
+  }
+  
+  .member5{
+    font-size: 24px;
+    color: #ffffff;
+    position: absolute;
+    font-weight: bold;
+    top: 4480px;
+    left: 605px;
+  }
+  .member6 {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+    position: absolute;
+    top: 4555px;
+    left: 605px;
+  }
+  
+  .member6:hover {
+    background-color: #d4d4d4;
+  }
+  
+  .member7{
+    font-size: 17px;
+    color: #ffffff;
+    position: absolute;
+    font-weight: bold;
+    top: 4450px;
+    left: 1102px;
+  }
+  
+  .member8{
+    font-size: 24px;
+    color: #ffffff;
+    position: absolute;
+    font-weight: bold;
+    top: 4480px;
+    left: 1102px;
+  }
+  
+  .member9 {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+    position: absolute;
+    top: 4555px;
+    left: 1102px;
+  }
+  
+  .member9:hover {
+    background-color: #d4d4d4;
+  }
+  
+  .footer1{
+    font-size: 17px;
+    color: #000000;
+    position: absolute;
+    font-weight: bold;
+    top: 4800px;
+    left: 110px;
+    text-decoration: none;
+  }
+  
+  .hr3 {
+    border-color: #f5f5f5;
+    position: absolute;
+    top: 4750px;
+    left: 110px;
+    width: 1350px;
+  }
+  
+  .footer2{
+    font-size: 15px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 4870px;
+    left: 110px;
+  }
+  
+  .footer3{
+    font-size: 15px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 4902px;
+    left: 110px;
+  }
+  
+  .footer4{
+    font-size: 15px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 4932px;
+    left: 110px;
+  }
+  .footer5{
+    font-size: 15px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 4962px;
+    left: 110px;
+  }
+  .footer6{
+    font-size: 15px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 4992px;
+    left: 110px;
+  }
+  .footer7{
+    font-size: 15px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 5022px;
+    left: 110px;
+  }
+  .footer8{
+    font-size: 15px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 5052px;
+    left: 110px;
+  }
+  
+  .footer9{
+    font-size: 17px;
+    color: #000000;
+    position: absolute;
+    font-weight: bold;
+    top: 4800px;
+    left: 480px;
+    text-decoration: none;
+  }
+  
+  .footer10{
+    font-size: 15px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 4870px;
+    left: 480px;
+  }
+  
+  .footer11{
+    font-size: 15px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 4900px;
+    left: 480px;
+  }
+  .footer12{
+    font-size: 15px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 4930px;
+    left: 480px;
+  }
+  .footer13{
+    font-size: 15px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 4960px;
+    left: 480px;
+  }
+  .footer14{
+    font-size: 15px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 4990px;
+    left: 480px;
+  }
+  
+  .footer15{
+    font-size: 15px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 5020px;
+    left: 480px;
+  }
+  .footer16{
+    font-size: 15px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 5050px;
+    left: 480px;
+  }
+  .footer17{
+    font-size: 15px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 5080px;
+    left: 480px;
+  }
+  
+  .footer18{
+    font-size: 17px;
+    color: #000000;
+    position: absolute;
+    font-weight: bold;
+    top: 4800px;
+    left: 810px;
+    text-decoration: none;
+  }
+  
+  .footer19{
+    font-size: 15px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 4870px;
+    left: 810px;
+  }
+  .footer20{
+    font-size: 15px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 4900px;
+    left: 810px;
+  }
+  .footer21{
+    font-size: 15px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 4930px;
+    left: 810px;
+  }
+  .footer22{
+    font-size: 15px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 4960px;
+    left: 810px;
+  }
+  .footer23{
+    font-size: 15px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 4990px;
+    left: 810px;
+  }
+  .footer24{
+    font-size: 15px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 5020px;
+    left: 810px;
+  }
+  
+  .location{
+    font-size: 15px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 4800px;
+    left: 1270px;
+  }
+  
+  .footer25{
+    font-size: 2em; 
+    font-weight: bold;
+    padding: 20px 0px;
+     line-height: 1;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+    font-size: 14px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 5200px;
+    left: 100px;
+  }
+  
+  .footer26{
+   font-size: 2em; 
+   font-weight: bold;
+    line-height: 1;
+   font-size: 14px;
+   color: #808080;
+   text-decoration: none;
+   position: absolute;
+   font-weight: bold;
+   top: 5220px;
+   left: 410px;
+  }
+  
+  .footer26:hover{
+    color: #000000; 
+  }
+  
+  .footer27{
+   font-size: 2em; 
+   font-weight: bold;
+    line-height: 1;
+   font-size: 14px;
+   color: #808080;
+   text-decoration: none;
+   position: absolute;
+   font-weight: bold;
+   top: 5220px;
+   left: 560px;
+  }
+  
+  .footer27:hover{
+    color: #000000; 
+  }
+  
+  .footer28{
+    font-size: 2em; 
+    font-weight: bold;
+     line-height: 1;
+    font-size: 14px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 5220px;
+    left: 700px;
+   }
+   
+   .footer28:hover{
+     color: #000000; 
+   }
+   
+   .footer29{
+    font-size: 2em; 
+    font-weight: bold;
+     line-height: 1;
+    font-size: 14px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 5220px;
+    left: 818px;
+   }
+   
+   .footer29:hover{
+     color: #000000; 
+   }
+   
+   .footer30{
+    font-size: 2em; 
+    font-weight: bold;
+     line-height: 1;
+    font-size: 14px;
+    color: #808080;
+    text-decoration: none;
+    position: absolute;
+    font-weight: bold;
+    top: 5220px;
+    left: 1030px;
+   }
+   
+   .footer30:hover{
+     color: #000000; 
+   }
